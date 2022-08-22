@@ -130,10 +130,25 @@ a.btn-light:hover {
 }
 #img{
     position: absolute;
-    width: 10%;
+    width: 15%;
     height: 100px;
     top: 300px;
-    left: 100px;
+    left: 80px;
+}
+#button{
+    position: absolute;
+    width: 10%;
+    height: 35px;
+    top: 450px;
+    left: 80px;
+}
+.summary{
+    position: absolute;
+    width: 25%;
+    height: 100px;
+    top: 400px;
+    left: 80px;
+    color: white;
 }
 .banner-top-anchor:hover {
     box-shadow: inset 150px 0 0 0 black;
@@ -191,8 +206,8 @@ a.btn-light:hover {
 }
 
 #h1{
-  margin-left: 70px;
-height: 40px;
+margin-left: 80px;
+height: 35px;
 width: 125px;
 
 }
