@@ -47,18 +47,19 @@ a.nav-link::before {
     left: 0;
     background-color: #000;
     transform: scaleX(0);
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
 }
 
 a.nav-link:hover::before {
-    transform: scaleX(1);
+    transform: scaleX(.5);
 }
 
 
 a.black-bg{
-    position: relative;
+    position:sticky;
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 a.black-bg:hover {
@@ -211,3 +212,10 @@ height: 35px;
 width: 125px;
 
 }
+
+/*.move-search
+{
+    position: absolute;
+    top: 27px;
+    left: 1080px;
+}*/
